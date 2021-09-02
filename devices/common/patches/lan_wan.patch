@@ -9,6 +9,5 @@
 
 +ucidef_set_interface_wan 'eth0'
 +[ -d /sys/class/net/eth1 ] && ucidef_set_interface_lan 'eth1'
-+[ -d /sys/class/net/eth2 ] && ucidef_set_interface_wan 'eth2'
  
  board_config_flush
